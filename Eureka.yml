@@ -5,9 +5,9 @@
 ---
 server:
   port: 7001
-
-eureka:
+spring:
   profiles: 7001
+eureka:
   instance:
     hostname: eureka7001.com               #服务端的实例名称
   client:
@@ -19,9 +19,9 @@ eureka:
 ---
 server:
   port: 7002
-
-eureka:
+spring:
   profiles: 7002
+eureka:
   instance:
     hostname: eureka7002.com               #服务端的实例名称
   client:
@@ -33,9 +33,9 @@ eureka:
 ---
 server:
   port: 7003
-
-eureka:
+spring:
   profiles: 7003
+eureka:
   instance:
     hostname: eureka7003.com               #服务端的实例名称
   client:
@@ -47,9 +47,9 @@ eureka:
 ---
 server:
   port: 7004
-
-eureka:
+spring:
   profiles: 7004
+eureka:
   instance:
     hostname: eureka7004.com               #服务端的实例名称
   client:
@@ -61,9 +61,9 @@ eureka:
 ---
 server:
   port: 7005
-
-eureka:
+spring:
   profiles: 7005
+eureka:
   instance:
     hostname: eureka7005.com               #服务端的实例名称
   client:
@@ -75,9 +75,9 @@ eureka:
 ---
 server:
   port: 7006
-
-eureka:
+spring:
   profiles: 7006
+eureka:
   instance:
     hostname: eureka7006.com               #服务端的实例名称
   client:
